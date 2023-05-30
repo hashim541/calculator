@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATING</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <div id="inputs">
+            <input id="input" type="text"  >
+        </div>
+        <div class="special">
+            <button class="clr" onclick="clrs()"> AC</button>
+        </div>
+        <div class="operate">
+            <div class="numbers">
+                <button class="btns1 bt" >7</button>
+                <button class="btns1 bt">8</button>
+                <button class="btns1 bt">9</button>
+                <button class="btns1 bt">4</button>
+                <button class="btns1 bt">5</button>
+                <button class="btns1 bt">6</button>
+                <button class="btns1 bt">1</button>
+                <button class="btns1 bt">2</button>
+                <button class="btns1 bt">3</button>
+                <button class="btns1 bt">0</button>
+                <button class="btns1 bt">00</button>
+                <button class="btns1 bt">.</button>
+            </div>
+            
+            <div class="operator">
+                <button class="plus btns2 bt">+</button>
+                <button class="minus btns2 bt">-</button>
+                <button class="multiply btns2 bt">*</button>
+                <button class="divide btns2 bt">/</button>
+                <button class="modulo btns2 bt">%</button>
+                <button class="power btns2 bt" >^</button>
+                <button class="equal btns3" onclick="calculate()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./cals.js"></script>
+</body>
+</html>

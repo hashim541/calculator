@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body{
+    height: 99vh;
+    background-color: #1D8A99;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ body > div{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+ }
+ input{
+    height: 60px;
+    width: 90%;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    border-width: 1px;
+ }
+ #inputs{
+    height: 100px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .special{
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+ }
+ .clr{
+   width: 60px;
+   height: 50px;
+   margin-bottom: 5px;
+   font-size: larger;
+   font-weight: bolder;
+   font-family: 'Quicksand', sans-serif;
+   border-radius: 8px;
+   border-style: none;
+   color: #03045e;
+ }
+ .clr:hover{
+   background-color: #03045e;
+   color: white;
+   border-style: none;
+}
+ .operate{
+    height:250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+ .btns1{
+    width: 60px;
+    height: 55px;
+    margin-bottom: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 8px;
+    border-style: none;
+    color: #03045e;
+ }
+ .btns1:hover{
+    background-color: #03045e;
+    color: white;
+    border-style: none;
+ }
+ .numbers{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ .btns2{
+    width: 55px;
+    height: 75px;
+    margin-bottom: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 8px;
+    border-style: none;
+    color: #03045e;
+ }
+ .btns2:hover{
+    background-color: #03045e;
+    color: white;
+    border-style: none;
+ }
+ .equal{
+   width: 165px;
+   height: 75px;
+    margin-bottom: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 8px;
+    border-style: none;
+    color: #03045e;
+ }
+ .equal:hover{
+   background-color: #03045e;
+   color: white;
+   border-style: none;
+}
+ .operator{
+    width:50%;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+ }
+ 
